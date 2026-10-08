@@ -1,7 +1,7 @@
 {
   "name": "tree",
-  "version": "2.3.2-1",
+  "version": "1.0",
   "category": "tools",
-  "url": "https://github.com/Copper-linux/copper-pages/releases/download/payloads-v1/tree-2.3.2-1.tar.gz",
-  "sha256": "913de0a06e54479bc6535a6934c23e2285ef1fc0b1e2a7cb4e415ce79cbe9b5c"
+  "url": "https://github.com/Copper-linux/copper-pages/releases/download/v1.0/tree-1.0.tar.gz",
+  "sha256": "cfc12b0faf22860640e537404f708ab43a73333a23d058eda2820a824ff364e8"
 }
