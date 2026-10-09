@@ -1,8 +1,0 @@
-{
-  "name": "glib2",
-  "version": "1.0",
-  "category": "libs",
-  "url": "https://github.com/Copper-linux/copper-pages/releases/download/v1.0-core/glib2-1.0.tar.gz",
-  "sha256": "9db6f5000075d0ecf31f94ee905c46d1190413fde624e76ba21f4288548c3065",
-  "depends": ["glibc"]
-}

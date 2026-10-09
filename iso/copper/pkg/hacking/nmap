@@ -1,0 +1,8 @@
+{
+  "name": "nmap",
+  "version": "7.95-1",
+  "category": "hacking",
+  "url": "https://github.com/Copper-linux/copper-pages/releases/download/payloads-v1/nmap-7.95-1.tar.gz",
+  "sha256": "4d7820edc0fc21df3532b505120802d6899ebdb58591a35f2411e572d36d7ab1",
+  "depends": ["libpcap"]
+}

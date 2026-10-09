@@ -1,8 +1,0 @@
-{
-  "name": "xfce4-session",
-  "version": "1.0",
-  "category": "xfce",
-  "url": "https://github.com/Copper-linux/copper-pages/releases/download/v1.0-core/xfce4-session-1.0.tar.gz",
-  "sha256": "3eb378c9f1bc9a1c8611896d9e126176d65399fb608710e04e45529d4eab9e38",
-  "depends": ["gtk3"]
-}
