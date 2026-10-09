@@ -3,6 +3,5 @@
   "version": "1.0",
   "category": "libs",
   "url": "https://github.com/Copper-linux/copper-pages/releases/download/v1.0-core/cairo-1.0.tar.gz",
-  "sha256": "f519ee666d149248d155dd03bef7f09d07288f49f837a0616f932ccf8f83a43a",
-  "depends": ["glibc", "zlib"]
+  "sha256": "372c7535db150f77410bbc7ba70a0f335fd00da7aaec663c45c3afcbbdc88677"
 }

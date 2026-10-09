@@ -3,6 +3,6 @@
   "version": "1.0",
   "category": "libs",
   "url": "https://github.com/Copper-linux/copper-pages/releases/download/v1.0-core/gtk3-1.0.tar.gz",
-  "sha256": "f19e181b3bfc85168b189e3e64f02458bbef676717349e903f50dff57854667a",
-  "depends": ["glibc", "glib2", "cairo"]
+  "sha256": "4c139a3e051a6920737cace0bfd848a99c960a13756ecec680ab1adcd6d041d2",
+  "depends": ["glib2", "cairo"]
 }
