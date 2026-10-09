@@ -3,9 +3,9 @@
   "libpcap": "libs",
   "zlib": "libs",
   "glib2": "libs",
+  "glibc": "libs",
   "cairo": "libs",
   "gtk3": "libs",
   "xfce4-session": "xfce",
-  "xfce4-panel": "xfce",
-  "glibc": "libs"
+  "xfce4-panel": "xfce"
 }
