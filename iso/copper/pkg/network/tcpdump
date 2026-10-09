@@ -1,8 +1,0 @@
-{
-  "name": "tcpdump",
-  "version": "4.99.7-1",
-  "category": "network",
-  "url": "https://github.com/Copper-linux/copper-pages/releases/download/payloads-v1/tcpdump-4.99.7-1.tar.gz",
-  "sha256": "6ae1d621c17e1931747ad6fdb31e67e8f7299437b589ed66ec580cc2d2b0e8a2",
-  "depends": ["libpcap"]
-}

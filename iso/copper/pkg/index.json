@@ -1,5 +1,10 @@
 {
   "tree": "tools",
   "libpcap": "libs",
-  "nmap": "hacking"
+  "zlib": "libs",
+  "glib2": "libs",
+  "cairo": "libs",
+  "xfce4-session": "xfce",
+  "xfce4-panel": "xfce",
+  "gtk3": "libs"
 }

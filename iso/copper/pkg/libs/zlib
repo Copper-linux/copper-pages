@@ -1,0 +1,7 @@
+{
+  "name": "zlib",
+  "version": "1.0",
+  "category": "libs",
+  "url": "https://github.com/Copper-linux/copper-pages/releases/download/v1.0-core/zlib-1.0.tar.gz",
+  "sha256": "e59f0b33883d988e11cfb5adfc1bc27e3a27e7fbfb67fbb28b2287b13e1d2508"
+}
