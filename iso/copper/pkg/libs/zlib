@@ -3,5 +3,6 @@
   "version": "1.0",
   "category": "libs",
   "url": "https://github.com/Copper-linux/copper-pages/releases/download/v1.0-core/zlib-1.0.tar.gz",
-  "sha256": "e59f0b33883d988e11cfb5adfc1bc27e3a27e7fbfb67fbb28b2287b13e1d2508"
+  "sha256": "97bf3a96f398de6bd11e6c2e933c77ef75f42bcabadccc550f3b66c7fbfe25e2",
+  "depends": ["glibc"]
 }

@@ -6,5 +6,6 @@
   "cairo": "libs",
   "gtk3": "libs",
   "xfce4-session": "xfce",
-  "xfce4-panel": "xfce"
+  "xfce4-panel": "xfce",
+  "glibc": "libs"
 }

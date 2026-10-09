@@ -3,6 +3,6 @@
   "version": "1.0",
   "category": "xfce",
   "url": "https://github.com/Copper-linux/copper-pages/releases/download/v1.0-core/xfce4-panel-1.0.tar.gz",
-  "sha256": "d6d71a740c0ccabdb53d9cad21243a50647ea148d0531cb377bf30325b406952",
-  "depends": ["gtk3"]
+  "sha256": "603f86e7688ae3ea4b4a8f77f43b4ea596a2c66e46337f34945c4efadd3273cc",
+  "depends": ["gtk3", "xfce4-session"]
 }

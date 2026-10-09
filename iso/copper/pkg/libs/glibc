@@ -1,0 +1,7 @@
+{
+  "name": "glibc",
+  "version": "1.0",
+  "category": "libs",
+  "url": "https://github.com/Copper-linux/copper-pages/releases/download/v1.0-core/glibc-1.0.tar.gz",
+  "sha256": "05a1b252c89c05116db50f34ebb1554a7bfdfb9cfba95e2990bdd2cd355d035c"
+}
