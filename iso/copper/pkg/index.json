@@ -1,5 +1,6 @@
 {
   "tree": "tools",
   "libpcap": "libs",
-  "nmap": "hacking"
+  "nmap": "hacking",
+  "tcpdump": "network"
 }
