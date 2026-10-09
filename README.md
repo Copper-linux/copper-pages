@@ -1,13 +1,6 @@
 # copper-pages
 
-The package repository that **ingot**, Copper Linux's own package manager,
-fetches from.
-
-This is a GitHub **Pages** repo, and it holds only small JSON metadata files —
-never binaries. The binaries live on this repository's **Releases**; each JSON
-page points at the real payload URL plus the sha256 that payload must match.
-That indirection is the whole design: Pages is the index, Releases are the
-warehouse.
+the package repos
 
 Default repo URL (used by ingot unless `INGOT_REPO` or `/etc/ingot.conf`
 overrides it):
