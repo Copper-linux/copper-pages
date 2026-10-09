@@ -4,7 +4,7 @@
   "zlib": "libs",
   "glib2": "libs",
   "cairo": "libs",
+  "gtk3": "libs",
   "xfce4-session": "xfce",
-  "xfce4-panel": "xfce",
-  "gtk3": "libs"
+  "xfce4-panel": "xfce"
 }

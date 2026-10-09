@@ -1,4 +1,3 @@
-```
 # copper-pages
 
 The package repository that **ingot**, Copper Linux's own package manager,
@@ -36,13 +35,14 @@ One `name -> category` entry per line. ingot finds an entry with a sed line
 matcher, so each entry must **start the line** (after optional whitespace) and
 its `: "value"` must be on the **same line**:
 
-``json
+```json
 {
   "libpcap": "libs",
+  "nmap": "hacking",
   "tcpdump": "network",
   "tree": "tools"
 }
-``
+```
 
 The category is also the directory the page lives in: `"tcpdump": "network"`
 means the page is at `iso/copper/pkg/network/tcpdump`.
@@ -54,7 +54,7 @@ key. `depends` is the ONLY array and must be on a single line. Pretty-print —
 a minified one-line file will break ingot, whose parser is a sed line-matcher,
 not a JSON parser.
 
-``json
+```json
 {
   "name": "tcpdump",
   "version": "4.99.7-1",
@@ -63,7 +63,7 @@ not a JSON parser.
   "sha256": "6ae1d621c17e1931747ad6fdb31e67e8f7299437b589ed66ec580cc2d2b0e8a2",
   "depends": ["libpcap"]
 }
-``
+```
 
 Field rules:
 
@@ -108,17 +108,19 @@ order does not matter; field **names** must match exactly.
 | package | category | version | depends |
 | --- | --- | --- | --- |
 | libpcap | libs | 1.11.0-1 | — |
+| nmap | hacking | 7.95-1 | libpcap |
 | tcpdump | network | 4.99.7-1 | libpcap |
 | tree | tools | 2.3.2-1 | — |
 
 All payloads are x86_64 Linux (glibc), built from upstream sources
-(libpcap/tcpdump from tcpdump.org releases, tree from
+(libpcap/tcpdump from tcpdump.org releases, nmap from nmap.org 7.95, tree from
 [Old-Man-Programmer/tree](https://github.com/Old-Man-Programmer/tree)), stripped,
 and staged with `tar -czf out.tar.gz -C <staging> usr`.
 
-`tcpdump` is a real demonstration of the dependency mechanism: its binary has
-`libpcap.so.1` as a dynamic `NEEDED` entry, and its page carries
-`"depends": ["libpcap"]`, so `ingot install tcpdump` installs `libpcap` first.
+`tcpdump` and `nmap` are real demonstrations of the dependency mechanism: both
+binaries have `libpcap.so.1` as a dynamic `NEEDED` entry, and their pages carry
+`"depends": ["libpcap"]`, so `ingot install tcpdump` (or `nmap`) installs
+`libpcap` first.
 
 ## Adding a package
 
@@ -179,4 +181,3 @@ and the files appear under `scratch/` (`scratch/usr/bin/tcpdump`,
 `scratch/usr/lib/libpcap.so.1`, ...). ingot also records an installed
 manifest under `<root>/var/lib/ingot/`, verifies the payload sha256 before
 unpacking, and deletes the package JSON from `/tmp` when it is done.
-```
