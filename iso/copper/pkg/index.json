@@ -2,5 +2,6 @@
   "libpcap": "libs",
   "nmap": "hacking",
   "tcpdump": "network",
-  "tree": "tools"
+  "tree": "tools",
+  "firefox": "tools"
 }

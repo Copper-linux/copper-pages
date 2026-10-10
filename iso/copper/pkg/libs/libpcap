@@ -2,6 +2,6 @@
   "name": "libpcap",
   "version": "1.11.0-1",
   "category": "libs",
-  "url": "https://github.com/Copper-linux/copper-pages/releases/download/payloads-v1/libpcap-1.11.0-1.tar.gz",
+  "url": "https://github.com/12hrformat/copper-pages/releases/download/payloads-v1/libpcap-1.11.0-1.tar.gz",
   "sha256": "d93654d1416d8caed9cc750326a1dfaf31ccbdf99163dee6c67d46367c8bd498"
 }

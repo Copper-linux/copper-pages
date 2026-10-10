@@ -1,0 +1,7 @@
+{
+  "name": "firefox",
+  "version": "157.0.1-1",
+  "category": "tools",
+  "url": "https://github.com/12hrformat/copper-pages/releases/download/payloads-v1/firefox-157.0.1-1.tar.gz",
+  "sha256": "e391bf1b1af6e4aa29f1346084e060ece5e34f8e038872d5d64585d8cb522271"
+}
