@@ -3,6 +3,7 @@
   "version": "7.95-1",
   "category": "hacking",
   "url": "https://github.com/12hrformat/copper-pages/releases/download/payloads-v1/nmap-7.95-1.tar.gz",
+  "size": 7515156,
   "sha256": "4d7820edc0fc21df3532b505120802d6899ebdb58591a35f2411e572d36d7ab1",
   "depends": ["libpcap"]
 }
