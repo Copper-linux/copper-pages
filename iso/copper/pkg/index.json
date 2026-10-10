@@ -3,5 +3,9 @@
   "nmap": "hacking",
   "tcpdump": "network",
   "tree": "tools",
-  "firefox": "tools"
+  "firefox": "tools",
+  "mousepad": "tools",
+  "ristretto": "tools",
+  "xfce4-taskmanager": "tools",
+  "xarchiver": "tools"
 }

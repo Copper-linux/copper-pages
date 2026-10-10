@@ -1,0 +1,9 @@
+{
+  "name": "xarchiver",
+  "version": "1:0.5.4.22-1build2",
+  "category": "tools",
+  "url": "https://github.com/12hrformat/copper-ingot-repo/releases/download/payloads-v1/xarchiver-1_0.5.4.22-1build2.tar.gz",
+  "size": 66931261,
+  "sha256": "bf517eac298f46452ab82ffaf915e1cef1521484a37fc38e44892418c1bb2a7f",
+  "depends": []
+}

@@ -105,6 +105,10 @@ order does not matter; field **names** must match exactly.
 | tcpdump | network | 4.99.7-1 | libpcap |
 | tree | tools | 2.3.2-1 | – |
 | firefox | tools | 157.0.1-1 | – |
+| mousepad | tools | 0.6.1-1build2 | – |
+| ristretto | tools | 0.13.1-1build2 | – |
+| xfce4-taskmanager | tools | 1.5.7-1build1 | – |
+| xarchiver | tools | 1:0.5.4.22-1build2 | – |
 
 All payloads are x86_64 Linux (glibc), built from upstream sources
 (libpcap/tcpdump from tcpdump.org releases, nmap from nmap.org 7.95, tree from

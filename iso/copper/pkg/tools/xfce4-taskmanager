@@ -1,0 +1,9 @@
+{
+  "name": "xfce4-taskmanager",
+  "version": "1.5.7-1build1",
+  "category": "tools",
+  "url": "https://github.com/12hrformat/copper-ingot-repo/releases/download/payloads-v1/xfce4-taskmanager-1.5.7-1build1.tar.gz",
+  "size": 67926187,
+  "sha256": "f0595ab8074f65804cb0fb2a147a310ce31dd5c7f33cdf9270eb05a87ab7d05e",
+  "depends": []
+}

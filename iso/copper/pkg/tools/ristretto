@@ -1,0 +1,9 @@
+{
+  "name": "ristretto",
+  "version": "0.13.1-1build2",
+  "category": "tools",
+  "url": "https://github.com/12hrformat/copper-ingot-repo/releases/download/payloads-v1/ristretto-0.13.1-1build2.tar.gz",
+  "size": 68436461,
+  "sha256": "c7235e7ee931ae7099f8f3f1d51af3dae38a98264f1d3082ed186d8e624af785",
+  "depends": []
+}

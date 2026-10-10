@@ -1,0 +1,9 @@
+{
+  "name": "mousepad",
+  "version": "0.6.1-1build2",
+  "category": "tools",
+  "url": "https://github.com/12hrformat/copper-ingot-repo/releases/download/payloads-v1/mousepad-0.6.1-1build2.tar.gz",
+  "size": 74816258,
+  "sha256": "fe683c98174fe4e3236291d20b733bfe02f8c30fadfab1b835faebec6c9afcbf",
+  "depends": []
+}
